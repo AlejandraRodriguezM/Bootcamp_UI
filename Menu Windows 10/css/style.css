@@ -1,0 +1,136 @@
+/*
+  Bg image: http://xinature.com/wp-content/uploads/2016/08/flowers-sunrise-purple-lavesnder-nature-lavender-sunset-lavendel-clouds-sky-field-flower-wallpaper-for-desktop-1920x1080.jpg
+  Cat image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxkKU5nAwXRBXkyQIUL4R_CN9hR1jpwmf4S7MUcTrw92-nWhb
+  Avatar: https://image.flaticon.com/icons/svg/146/146025.svg
+
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  
+  Colors:
+    orange: #e76022
+    blue: #00bcd4
+    red: #da312e
+    green: #61b812
+    yellow: #f1d445
+*/
+*{box-sizing:border-box;
+    font-family: "Lucida Sans Unicode", "Lucida                   Grande", sans-serif;
+}
+
+#container{
+
+  background:url('http://xinature.com/wp-content/uploads/2016/08/flowers-sunrise-purple-lavesnder-nature-lavender-sunset-lavendel-clouds-sky-field-flower-wallpaper-for-desktop-1920x1080.jpg') no-repeat;
+  background-size:1015px 500px;
+  width:1015px;
+  height:420px;
+  
+}
+
+#start{
+  color:white;
+  font-size:2.5em;
+  /*border:1px solid red;*/
+  display:inline-block;
+  margin-top:35px;
+  margin-left:60px;
+}
+
+#nom-city{
+  display:inline-block;
+  //border: 1px solid red;
+  vertical-align:top;
+  color:white;
+  padding-top:1%;
+  padding-right:20px;
+}
+#nom-city span:first-child{
+   font-size:1.5em;
+   display:block;
+   margin-bottom:-10px;
+}
+
+#nom-city span:last-child{
+   font-size:0.7em;
+
+}
+
+#identificacion{
+  display:inline-block;
+   float:right;
+   margin-right:60px;
+   margin-top:30px;
+}
+
+header{
+  //border:1px solid black;
+  height:100px;
+
+}
+
+#left{
+  //border:1px solid cyan;
+  margin-top:30px;
+  height:250px;
+  width:625px;
+  display:inline-block;
+  margin-left:60px;
+  margin-right:2%;
+}
+
+#right{
+  display:inline-block;
+  //border:1px solid cyan;
+  margin-top:30px;
+  height:250px;
+  width:250px;
+  vertical-align:top;
+}
+
+#right div{
+  width:47%;
+  height:47%;
+  display:inline-block;
+}
+
+
+#right div:nth-of-type(2n+1){
+  margin-right:2%;
+}
+
+.blue{
+  background-color:#00bcd4;
+  width:38.5%;
+  height:47%;
+}
+.green{
+  background-color:#61b812;
+  width:19%;
+  height:47%;
+}
+.yellow{
+  background-color:#f1d445;
+  width:19%;
+  height:47%;
+}
+.red{
+  background-color:#da312e;
+  width:19%;
+  height:47%;
+}
+
+.orange{
+  background-color:#e76022;
+  width:38.5%;
+  height:47%;
+}
+
+#left div{
+  display:inline-block;
+}
+
+#gato-img{
+  background:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxkKU5nAwXRBXkyQIUL4R_CN9hR1jpwmf4S7MUcTrw92-nWhb') no-repeat;
+  background-size:120% 120%;
+  width:38%;
+  height:47%;
+  background-position:center;
+}
