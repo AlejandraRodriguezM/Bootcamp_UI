@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    margin:0;
+    
+}
+
+header ul{
+    margin-left:55%;
+    margin-top:40px;
+    margin-bottom:45px;
+    font-size: 1.1em;
+}
+
+header li{
+    
+    list-style:none;
+    display:inline-block;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 2%;
+    color:#696969;
+}
+
+#favorites{
+    //border: 1px solid blue;
+    background-color:#f1f1f1;
+    width:95%;
+    height:300px;
+    margin: 0 auto;
+    overflow:hidden;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+
+#favorites #img-place{
+    //border:1px solid black;
+    float: left;
+    width:27%;
+    height: 87%;
+    background: url('../images/sf-image.jpg') no-repeat;
+    background-size:100% 80%;
+    margin: 2% 2%;
+   
+}
+
+#favorites #img-food{
+    //border:1px solid black;
+    float: left;
+    width:34%;
+    height: 87%;
+    background: url('../images/fuits-image.jpg') no-repeat;
+    background-size:100% 80%;
+    margin: 2% 2%;
+}
+
+#favorites #img-seasson{
+    //border:1px solid black;
+    float: left;
+    width:27%;
+    height: 87%;
+    background: url('../images/place-image.jpg') no-repeat;
+    background-size:100% 80%;
+    margin: 2% 2%;
+}
+
+.favorites-title{
+    border:1px solid #C0C0C0;
+    height: 37%;
+    width:40%;
+    margin: 160px auto 0 auto;
+    font-size:0.7em;
+    text-align: center;
+    background-color: white;
+    padding-top:30px;
+     color:#696969;
+    
+}
+#favorites div:nth-child(2) p
+{
+    width:30%;
+}
+
+#favorites p+div{
+    border: 1px solid #3f3f3f;
+    background-color: black;
+     width: 22%;
+    margin:-43px auto 0 auto;
+    z-index: 2;
+  
+}
+
+#favorites #img-food p+div{
+    width: 16%;
+    
+}
+
+
+#content{
+    
+    width: 80%;
+    margin:50px auto 0 auto;
+    
+    
+}
+#content article{
+   
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f1f1f1;
+}
+
+#content article h2{
+    text-transform: uppercase;
+    font-size:0.9em;
+    text-align: center;
+    color: #3f3f3f;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#content article p{
+    
+    font-size:0.95em;
+    color: #3f3f3f;
+    width:70%;
+    margin:0 auto;
+}
+
+#content article p:last-child{
+    
+    margin-bottom:20px;
+}
+
+#content article img{
+    height:60%;
+    width:70%;
+    display:block;
+    margin:0 auto 30px auto;
+    
+}
+
+#content aside{
+    //border:1px solid blue;
+    width: 34%;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+#content aside h3{
+    text-align:center;
+    font-size: 0.9em;
+     color:#696969;
+    margin-bottom: 0;
+    
+    
+}
+#content aside h3+div{
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+    width: 6em;
+    margin:5px auto 0 auto;
+ 
+}
+
+#content aside img{
+    display:block;
+    height:70%;
+    width:50%;
+    margin:10px auto 0 auto;
+}
+
+#content aside p{
+    width: 80%;
+    font-size: 0.63em;
+     color: #3f3f3f;
+    margin:30px auto 0 14%;
+    line-height: 15px;
+    text-align: justify; 
+    //border:1px solid green;
+    
+}
+
+#content aside div:first-child span{
+    display: block;
+    
+}
+
+#content aside>div:nth-child(2){
+    margin-top:50px;
+    
+}
+
+form{
+    display: inline-block;
+    margin-left:45px;
+}
+
+input[type=email]{
+     display: inline-block;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     margin:15px auto 0 auto;
+     height: 35px;
+     width: 80%;
+     padding-left: 10px;
+     font-size: 1em;
+    
+}
+
+textarea{
+    display: inline-block;
+    margin-top:15px;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 1em;
+
+}
+
+
+input[type=submit]{
+     background-color: #696969;
+     font-size: 1.1em;
+     width: 80%;
+     padding-top:10px;
+     padding-bottom:10px;
+     color:white;
+     border-radius: 7px;
+    margin-top:10px;
+}
+
+
+footer{
+    height: 170px;
+    background-color: #696969;
+    margin:50px  0 0 0;
+    width:95%;
+    margin: 40px auto 0 auto;
+    
+ 
+}
+
+footer p{
+    color:white;
+    height: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    padding-top:75px;
+  
+}
+
+footer p span{
+    padding-left:30px;
+
+  
+}
+
+
+
+
+
+
+
