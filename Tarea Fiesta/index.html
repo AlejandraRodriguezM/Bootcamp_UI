@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fiesta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+</head>
+<body>
+    
+    <div id="container">
+     
+     <div id="title">
+         <i class="fas fa-music"></i>
+         <p>Let's rock!</p>
+         <i class="fas fa-music"></i>
+    </div>
+      
+       <div id="teclas">
+           <div>
+                <div id="teclita65" class="tecla-default">A</div>
+                <div id="teclita83" class="tecla-default">S</div>
+                <div id="teclita68" class="tecla-default">D</div>
+                <div id="teclita70" class="tecla-default">F</div>
+                <div id="teclita71" class="tecla-default">G</div>
+            </div>
+            <div>
+                <div id="teclita72" class="tecla-default">H</div>
+                <div id="teclita74" class="tecla-default">J</div>
+                <div id="teclita75" class="tecla-default">K</div>
+                <div id="teclita76" class="tecla-default">L</div>
+                <div id="teclita192" class="tecla-default">Ñ</div>
+            </div>
+       </div>
+
+
+
+        <div id="myTeclitaEs"></div>
+
+        <audio id="audiecito65" src="./sounds/guitar1.wav"></audio>
+        <audio id="audiecito83" src="./sounds/guitar2.wav"></audio>
+        <audio id="audiecito68" src="./sounds/guitar3.wav"></audio>
+        <audio id="audiecito70" src="./sounds/guitar4.wav"></audio>
+        <audio id="audiecito71" src="./sounds/guitar5.wav"></audio>
+        <audio id="audiecito72" src="./sounds/guitar6.wav"></audio>
+        <audio id="audiecito74" src="./sounds/guitar7.wav"></audio>
+        <audio id="audiecito75" src="./sounds/guitar8.wav"></audio>
+        <audio  id="audiecito76" src="./sounds/guitar9.wav"></audio>
+        <audio  id="audiecito192" src="./sounds/guitar10.wav"></audio>
+
+    </div>
+    
+    
+    <script>
+        
+        
+        function mostrarLaTecla(corazon){
+            
+            console.log(corazon.key,corazon.keyCode);
+            var miAudiecito=document.querySelector("#audiecito"+corazon.keyCode);
+            
+            if(miAudiecito!==null){
+                
+                miAudiecito.currentTime=1;
+                miAudiecito.play()
+            }
+            
+            var miTeclita=document.querySelector("#teclita"+corazon.keyCode);
+            var corcheas=document.querySelectorAll("i");
+            var title=document.querySelector("#title p");
+          
+            
+            miTeclita.classList.add('tecla-pressed');
+            
+            title.classList.add('corcheas-move');
+            
+
+            
+            for (var i = 0; i < corcheas.length; i++) {
+                corcheas[i].classList.add('corcheas-move');
+            }
+            
+            setTimeout( function(){
+                miTeclita.classList.remove('tecla-pressed');
+                miTeclita.classList.add('tecla-default');
+                
+                for (var i = 0; i < corcheas.length; i++) {
+                    corcheas[i].classList.remove('corcheas-move');
+                }
+                
+                title.classList.remove('corcheas-move');
+            }, 1000);
+            
+            
+        }
+        
+        document.addEventListener('keydown',mostrarLaTecla);
+        
+        
+    
+    </script>
+  
+</body>
+
+
+
+
+

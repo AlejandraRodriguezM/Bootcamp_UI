@@ -267,7 +267,168 @@ footer p span{
 
 
 
+@media screen and (min-width: 769px) and (max-width: 1020px) {
+
+    header ul{
+        margin-left:40%;
+    }
+
+    input[type=email]{
+         
+         font-size: 0.8em;
+    
+    }
+
+    textarea{
+       
+        font-size: 0.8em;
+
+    }
+
+
+
+}
 
 
 
 
+@media(max-width: 768px){
+
+    header ul{
+        width: 80%;
+        margin:40px auto 45px auto;
+        display:flex;
+        justify-content:space-between;
+    }
+
+
+    header li{
+        
+        list-style:none;
+        color:#696969;
+        padding:0;
+        margin: 0;
+
+    }
+
+    
+    #favorites{
+         height:940px;
+         width:100%;
+       
+    }
+    
+    #favorites #img-place,#favorites #img-food,#favorites #img-seasson{
+        float:none;
+        clear:both;
+        display:flex;
+        width:65%;
+        height: 266px;
+        background-size:100% 80%;
+        margin:40px auto 0 auto;
+        padding-left:20%;
+        padding-right: 20%;
+        
+    }
+
+    #favorites #img-food{
+        width:85%;
+    }
+ 
+    
+    .favorites-title{
+        width:80%;
+    }
+    
+    #favorites div:nth-child(2) p
+    {
+        width:60%;
+    }
+
+    #favorites p+div{
+        border: 1px solid #3f3f3f;
+        background-color: black;
+         width: 22%;
+        margin:-43px auto 0 auto;
+        z-index: 2;
+         display: none;
+
+    }
+
+    #favorites #img-food p+div{
+        width: 16%;
+        display: none;
+
+    }
+    
+    
+    #content article{
+        padding-top:20px;
+        padding-bottom:20px;
+        width: 100%;
+        display: block;
+        
+    }
+    
+    #content aside{
+       
+        width: 60%;
+        display: block;
+        padding-left: 0;
+        margin: 30px auto 0 auto;
+    }
+    
+
+    #content article p{
+    
+        font-size:0.85em;
+             
+    }
+
+    #content aside h3+div{
+        margin:0 auto 0 auto;
+ 
+    }
+    #content aside p{
+       
+        font-size: 0.8em;
+        margin:0;
+        width: 100%;
+        padding-top: 30px;
+    
+    }
+    form{
+        display: inline-block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    footer  {
+        width: 100%;
+
+    }
+    
+    input[type=email]{
+     display: block;
+    
+    }
+
+    textarea{
+        display: block;
+        margin:15px auto 0 auto;
+       
+
+    }
+
+    input[type=submit]{
+        width: 80%;
+        display: block;
+        margin:20px auto 0  auto;
+       
+    }
+
+}
+
+
+
+}
