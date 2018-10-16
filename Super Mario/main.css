@@ -1,0 +1,73 @@
+/*Basic page reset styles*/
+* {
+    margin: 100;
+    padding:50;
+    list-style: none;
+    font-family: 'Press Start 2P';
+    background: black;
+
+}
+
+p{
+	color: White;
+    background: transparent;
+
+}
+
+ .img1
+{
+	position:absolute;
+	left:2%;
+	top:5%;
+	z-index:-1;
+
+}
+ 
+.img2
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	margin-left: 8%;
+}
+
+.img3
+{
+	position:absolute;
+	left:36%;
+	top:4%;
+    background: transparent;
+
+}
+
+.mario
+{
+	position:absolute;
+	left:15%;
+	top:2%;
+}
+
+.cero{
+	position:absolute;
+	left:39%;
+	top:4%;
+}
+
+.world
+{
+	position:absolute;
+	left: 60%;
+	top: 2%;
+
+}
+
+.time
+{
+	position:absolute;
+	right:15%;
+	top:2%;
+}
+
+/*
+  this is the font family that you need to use: font-family: 'Press Start 2P', cursive;
+*/

@@ -82,25 +82,21 @@ header li{
     padding-top:30px;
      color:#696969;
     
+    
 }
-#favorites div:nth-child(2) p
+#favorites div:nth-child(2) div
 {
     width:30%;
 }
 
-#favorites p+div{
-    border: 1px solid #3f3f3f;
-    background-color: black;
-     width: 22%;
-    margin:-43px auto 0 auto;
-    z-index: 2;
-  
+
+
+.favorites-title p{
+    display: inline;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 5px;
 }
 
-#favorites #img-food p+div{
-    width: 16%;
-    
-}
 
 
 #content{
@@ -165,7 +161,7 @@ header li{
 }
 #content aside h3+div{
     background-color: #C0C0C0;
-    border: 1px solid #C0C0C0;
+    border: 0.7px solid #C0C0C0;
     width: 6em;
     margin:5px auto 0 auto;
  
@@ -180,7 +176,7 @@ header li{
 
 #content aside p{
     width: 80%;
-    font-size: 0.63em;
+    font-size: 0.7em;
      color: #3f3f3f;
     margin:30px auto 0 14%;
     line-height: 15px;
@@ -285,7 +281,9 @@ footer p span{
 
     }
 
-
+    .favorites-title{
+        font-size: 0.55em;
+    }
 
 }
 
@@ -340,9 +338,9 @@ footer p span{
         width:80%;
     }
     
-    #favorites div:nth-child(2) p
+    #favorites div:nth-child(2) div
     {
-        width:60%;
+        width:45%;
     }
 
     #favorites p+div{
@@ -351,7 +349,7 @@ footer p span{
          width: 22%;
         margin:-43px auto 0 auto;
         z-index: 2;
-         display: none;
+         //position:relative;
 
     }
 
@@ -384,9 +382,14 @@ footer p span{
         font-size:0.85em;
              
     }
+    
+    #content aside h3{
+        font-size: 1.1em;
+    }
 
     #content aside h3+div{
-        margin:0 auto 0 auto;
+        margin:5px auto 0 auto;
+        width: 7.5em;
  
     }
     #content aside p{
@@ -409,7 +412,7 @@ footer p span{
     }
     
     input[type=email]{
-     display: block;
+       display: block;
     
     }
 

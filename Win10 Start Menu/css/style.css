@@ -28,7 +28,6 @@
 #start{
   color:white;
   font-size:2.5em;
-  /*border:1px solid red;*/
   display:inline-block;
   margin-top:35px;
   margin-left:60px;
@@ -36,12 +35,12 @@
 
 #nom-city{
   display:inline-block;
-  //border: 1px solid red;
   vertical-align:top;
   color:white;
   padding-top:1%;
   padding-right:20px;
 }
+
 #nom-city span:first-child{
    font-size:1.5em;
    display:block;
@@ -61,13 +60,11 @@
 }
 
 header{
-  //border:1px solid black;
   height:100px;
 
 }
 
 #left{
-  //border:1px solid cyan;
   margin-top:30px;
   height:250px;
   width:625px;
@@ -78,7 +75,6 @@ header{
 
 #right{
   display:inline-block;
-  //border:1px solid cyan;
   margin-top:30px;
   height:250px;
   width:250px;
@@ -101,16 +97,19 @@ header{
   width:38.5%;
   height:47%;
 }
+
 .green{
   background-color:#61b812;
   width:19%;
   height:47%;
 }
+
 .yellow{
   background-color:#f1d445;
   width:19%;
   height:47%;
 }
+
 .red{
   background-color:#da312e;
   width:19%;

@@ -1,0 +1,33 @@
+
+#gral-authors{
+   display: inline-block;
+   width: 49%; 
+    text-align: center;
+}
+
+#favorite-authors{
+     display: inline-block;
+     width: 49%; 
+    text-align: center;
+}
+
+h1{ 
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+h2{
+     margin-bottom: 50px;
+    font-size: 1.2em;
+}
+
+article{
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+figcaption{
+    margin-top:20px;
+}
